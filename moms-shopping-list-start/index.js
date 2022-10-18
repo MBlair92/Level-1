@@ -36,8 +36,8 @@ var addItem =function(){
     newListItem.appendChild(xButton)
 
     xButton.addEventListener("click" , deleteItem)
-     function deleteItem(){
-    newListItem.remove()   
+    function deleteItem(){
+        newListItem.remove()   
         
     }
 
