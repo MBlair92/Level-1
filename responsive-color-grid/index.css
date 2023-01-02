@@ -1,0 +1,93 @@
+.heading{
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+}
+
+#flex-container {
+    width: 100px;
+    border: 2px black;
+    display: grid;
+    grid-template-areas: "1 1 1 1 1 1 1 1 1 1 1 1"
+                         "2 2 2 3 3 3 4 4 4 5 5 5"
+                         "6 6 6 6 6 6 7 7 7 7 7 7"
+                         "8 8 8 8 8 8 8 8 9 9 9 9";
+        
+    gap: 5px;
+}
+
+#box1{
+    border: 2px solid white;
+    background-color: #F5C6D6;
+    height: 50px;
+    grid-area: 1;
+    width: 100%x;
+
+}#box2{
+    border: 2px solid white;
+    background-color: #EE2E84;
+    height: 50px;
+    grid-area: 2;
+    width: 100%x;
+}
+#box3{
+    border: 1px solid white;
+    background-color: #EE2E84;
+    height: 50px;
+    grid-area: 3;
+    width: 100%x;
+}
+#box4{
+    border: 1px solid white;
+    background-color: #EE2E84;
+    height: 50px;
+    grid-area: 4;
+    width: 100%x;
+}
+#box5{
+    border: 1px solid white;
+    background-color: #EE2E84;
+    height: 50px;
+    grid-area: 5;
+    width: 100%x;
+
+}
+#box6{
+    border: 1px solid white;
+    background-color: #85CFD8;
+    height: 50px;
+    grid-area: 6;
+    width: 100%x;
+}
+#box7{
+    border: 1px solid white;
+    background-color: #85CFD8;
+    height: 50px;
+    grid-area: 7;
+    width: 100%x;
+}
+#box8{
+    border: 1px solid white;
+    background-color: #8DC63F;
+    height: 50px;
+    grid-area: 8;
+    width: 100%x;
+}
+#box9{
+    border: 1px solid  white;
+    background-color: #E76E34;
+    height: 50px;
+    grid-area: 9;
+    width: 100%x;
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    #flex-container{
+        grid-template-areas: "1 1 1 1 1 1 1 1 1 1 1 1"
+                             "2 2 2 3 3 3 4 4 4 5 5 5"
+                             "6 6 6 6 6 6 7 7 7 7 7 7"
+                             "8 8 8 8 8 8 8 8 9 9 9 9";
+    }
+}
+    
