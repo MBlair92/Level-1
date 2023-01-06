@@ -1,0 +1,63 @@
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+ .wrapper>* {
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.header{
+  background: yellow;
+  height: 70px;
+}
+
+.content{
+  text-align: left 20px;
+  background: pink;
+  height: 200px;
+  font-size: 15px;
+}
+
+.sidebar1{
+  background: skyblue;
+}
+
+.sidebar2{
+  background: greenyellow
+}
+
+.footer{
+  background: orange;
+  height: 80px;
+}
+@media all and (min-width: 800px){
+  .main{
+    flex: 3;
+  }
+
+  .sidebar1{
+    order: 1;
+  }
+  
+  .sidebar2{
+    order: 2;
+  }
+  
+  .main{
+    order: 2;
+  }
+
+  .footer{
+    order: 4;
+  }
+}
+
+@media all and (mid-width: 600px){
+  .sidebar{
+    flex:1;
+  }
+}

@@ -1,10 +1,5 @@
-.heading{
-    text-align: center;
-    background-color: red;
-    color: whitesmoke;
-}
 
-#flex-container {
+.grid-container {
     width: 100px;
     border: 2px black;
     display: grid;
@@ -83,7 +78,7 @@
 
 
 @media (min-width: 481px) and (max-width: 768px){
-    #flex-container{
+    .grid-container{
         grid-template-areas: "1 1 1 1 1 1 1 1 1 1 1 1"
                              "2 2 2 3 3 3 4 4 4 5 5 5"
                              "6 6 6 6 6 6 7 7 7 7 7 7"
