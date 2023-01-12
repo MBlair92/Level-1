@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+
+.background-logo{
+    background-image: url(images/logo.png);
+    height: 439px;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.catchphrase{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sofia' ,sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: magenta;
+    text-decoration: underline;
+}
+ul.products{
+    text-align: center;
+}
+.treats{
+    list-style-type: none;
+}
+.treat-images{
+    height: 100px;
+    width: 200px;
+}
+#myCarousel{
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    background-color: plum;
+}
