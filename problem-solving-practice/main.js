@@ -19,20 +19,20 @@
 //2.) Write a function that takes an array
 //  of words and a character and returns
 // //  each word that has that character present.
-// function lettersWithStrings(letterArr, b){
-//     let words = letterArr[0]   
-//     for(let i = 0; i < letterArr.length; i++){
-//         if(letterArr[i].includes(b)){
-//             words = letterArr[i]
-//             console.log(words)
-//         }
-//     }
+function lettersWithStrings(letterArr, b){
+    let words = letterArr[0]   
+    for(let i = 0; i < letterArr.length; i++){
+        if(letterArr[i].includes(b)){
+            words = letterArr[i]
+            console.log(words)
+        }
+    }
 
-// }
-// test data
-// console.log(lettersWithStrings(["$hello!", "%%^%%", "test!"], "!")) 
-// console.log(lettersWithStrings(["#3", "$$$", "C%4!", "Hey!"], "!")) 
-// console.log(lettersWithStrings(["yellow", "green", "^up^", "down", "dog"], "h"))  
+}
+
+console.log(lettersWithStrings(["$hello!", "%%^%%", "test!"], "!")) 
+console.log(lettersWithStrings(["#3", "$$$", "C%4!", "Hey!"], "!")) 
+console.log(lettersWithStrings(["yellow", "green", "^up^", "down", "dog"], "h"))  
 
 // 3.)Write a function that takes a num1 and num2 and returns whether num1 is divisible by num2.
 let divisible = false;
